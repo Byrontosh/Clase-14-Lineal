@@ -3,7 +3,8 @@ def imprimir_Arreglo(arreglo):
   tamanio=len(arreglo)
   for i in range(tamanio):
     print(f' [{arreglo[i]}] ',end="")
-
+    
+# Este es el algoritmo de búsqueda lineal finalizado
 def algoritmo_Busqueda_Lineal(arreglo,sueldo):
   resultado=False
   tamanio= len(arreglo)
